@@ -1,0 +1,34 @@
+name: ci
+
+on:
+    pull_request:
+        branches:
+        - '*'
+    push:
+        branches:
+        - '*'
+
+jobs:
+  lint-and-format:
+    name: ESLint and Prettier
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v4
+
+      - name: Set up Bun
+        uses: oven-sh/setup-bun@v1
+        with:
+          bun-version: 'latest'
+
+      - name: Install bun dependencies
+        run: bun install
+
+      - name: Run ESLint
+        run: bun run lint
+
+      - name: Run Prettier Check
+        run: bun run prettier --check .
+
+      - name: Format code with Prettier
+        run: bun run prettier --write .
