@@ -6,12 +6,8 @@ const config: Config = {
     tagline: 'Dinosaurs are cool',
     favicon: 'img/favicon.ico',
 
-    // Set the production url of your site here
-    url: 'https://your-docusaurus-site.example.com',
-    // Set the /<baseUrl>/ pathname under which your site is served
-    // For GitHub pages deployment, it is often '/<projectName>/'
-    // GitHub pages deployment configuration
-    baseUrl: '/',
+    url: 'https://AryanK1511.github.io',
+    baseUrl: '/SenecaDevHandbook',
     organizationName: 'AryanK1511',
     projectName: 'SenecaDevGuide',
     deploymentBranch: 'main',
@@ -55,12 +51,11 @@ const config: Config = {
 
     themeConfig: {
         // Replace with your project's social card
-        image: 'img/docusaurus-social-card.jpg',
         navbar: {
             title: 'Seneca Dev Guide',
             logo: {
                 alt: 'Seneca Dev Guide Logo',
-                src: 'img/logo.svg',
+                src: 'img/logo.png',
             },
             items: [
                 {
@@ -81,10 +76,6 @@ const config: Config = {
                     position: 'right',
                 },
             ],
-        },
-        footer: {
-            style: 'dark',
-            copyright: `Copyright © ${new Date().getFullYear()} Seneca Dev Guide.`,
         },
         colorMode: {
             defaultMode: 'dark',
