@@ -81,10 +81,6 @@ const config: Config = {
                 },
             ],
         },
-        footer: {
-            style: 'dark',
-            copyright: `Copyright © ${new Date().getFullYear()} Seneca Dev Guide.`,
-        },
         colorMode: {
             defaultMode: 'dark',
             disableSwitch: true,

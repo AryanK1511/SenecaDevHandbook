@@ -1,4 +1,4 @@
-# Code of Conduct - Qupine Docs
+# Code of Conduct - Seneca Dev Guide
 
 ## Our Pledge
 
