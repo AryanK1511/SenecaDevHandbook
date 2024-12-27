@@ -55,12 +55,11 @@ const config: Config = {
 
     themeConfig: {
         // Replace with your project's social card
-        image: 'img/docusaurus-social-card.jpg',
         navbar: {
             title: 'Seneca Dev Guide',
             logo: {
                 alt: 'Seneca Dev Guide Logo',
-                src: 'img/logo.svg',
+                src: 'img/logo.png',
             },
             items: [
                 {
