@@ -1,5 +1,4 @@
 ---
+title: Courses
 sidebar_position: 1
 ---
-
-# Internship Programs
