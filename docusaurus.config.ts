@@ -7,7 +7,7 @@ const config: Config = {
     favicon: 'img/favicon.ico',
 
     url: 'https://AryanK1511.github.io',
-    baseUrl: '/SenecaDevHandbook',
+    baseUrl: '/',
     organizationName: 'AryanK1511',
     projectName: 'SenecaDevGuide',
     deploymentBranch: 'main',
