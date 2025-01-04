@@ -36,8 +36,7 @@ Before you start working on a new feature or bug fix, it's a good idea to raise 
 
 ## Prerequisites
 
-Before you can start contributing, you need to have [Node](https://nodejs.org/en) installed. Node is a
-JavaScript runtime built on Chrome's V8 JavaScript engine.
+efore you can start contributing, you need to have **[Bun](https://bun.sh/)** installed. Bun is a fast, modern JavaScript runtime that we use to manage dependencies and run the development server.
 
 ## Setting Up the Project Locally
 
@@ -59,7 +58,7 @@ JavaScript runtime built on Chrome's V8 JavaScript engine.
     Run the following command to install the required dependencies:
 
     ```bash
-    npm install
+    bun install
     ```
 
     This will install all the necessary packages for the documentation site.
@@ -69,7 +68,7 @@ JavaScript runtime built on Chrome's V8 JavaScript engine.
     To view the documentation locally and start contributing, run the development server:
 
     ```bash
-    npm start
+    bun start
     ```
 
     This will start a local development server, and you can view the documentation in your browser by going to [http://localhost:3000](http://localhost:3000).
