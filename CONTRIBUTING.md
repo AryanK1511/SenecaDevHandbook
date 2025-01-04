@@ -36,7 +36,7 @@ Before you start working on a new feature or bug fix, it's a good idea to raise 
 
 ## Prerequisites
 
-efore you can start contributing, you need to have **[Bun](https://bun.sh/)** installed. Bun is a fast, modern JavaScript runtime that we use to manage dependencies and run the development server.
+Before you can start contributing, you need to have **[Bun](https://bun.sh/)** installed. Bun is a fast, modern JavaScript runtime that we use to manage dependencies and run the development server.
 
 ## Setting Up the Project Locally
 
