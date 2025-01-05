@@ -1,33 +1,59 @@
-# Contributing to the Qupine Docs
+# Contributing to the SenecaDev Handbook
 
 Thank you for considering contributing to our documentation! Whether you're fixing a typo, adding a new section, or improving existing content, we welcome your contributions. Here's a quick guide to get started with setting up the project locally and contributing effectively.
+
+## Raising an Issue
+
+Before you start working on a new feature or bug fix, it's a good idea to raise an issue to discuss your proposed changes. This helps ensure that your work aligns with the project's goals and that no one else is already working on the same thing.
+
+**Steps to Raise an Issue:**
+
+1. **Go to the Issues tab:**
+
+    Navigate to the [Issues tab](https://github.com/AryanK1511/SenecaDevHandbook/issues) of the repository.
+
+2. **Click on "New issue":**
+
+    Click the "New issue" button to open a new issue form.
+
+3. **Fill out the issue template:**
+
+    Provide a clear and concise description of the issue or feature request. Make sure to include the following information:
+
+    - A descriptive title
+    - A detailed description of the problem or feature
+    - Steps to reproduce the issue (if applicable)
+    - Any relevant screenshots or code snippets
+    - Any other information that might be helpful
+
+4. **Submit the issue:**
+
+    Once you've filled out the necessary information, click on "Submit new issue".
+
+5. **Wait for someone to approve your issue:**
+
+    After submitting your issue, wait for a project maintainer or a team member to review and approve it. They might ask for more information or suggest changes. Once your issue is approved, you can start working on it.
 
 ## Prerequisites
 
 Before you can start contributing, you need to have **[Bun](https://bun.sh/)** installed. Bun is a fast, modern JavaScript runtime that we use to manage dependencies and run the development server.
 
-### Install Bun
-
-If you don't have Bun installed yet, you can install it by running:
-
-```bash
-curl -fsSL https://bun.sh/install | bash
-```
-
-Alternatively, you can check the official [installation guide](https://bun.sh/docs/installation) for more options.
-
 ## Setting Up the Project Locally
 
-1. **Clone the repository:**
+1. **Fork the repository:**
 
-    First, clone the repository to your local machine:
+    First, fork the repository on GitHub by clicking the "Fork" button on the [repository's page](https://github.com/AryanK1511/SenecaDevHandbook).
+
+2. **Clone the repository:**
+
+    Clone the forked repository to your local machine:
 
     ```bash
-    git clone https://github.com/Qupine/docs.git
-    cd docs
+    git clone https://github.com/your-username/handbook.git
+    cd handbook
     ```
 
-2. **Install dependencies:**
+3. **Install dependencies:**
 
     Run the following command to install the required dependencies:
 
@@ -37,7 +63,7 @@ Alternatively, you can check the official [installation guide](https://bun.sh/do
 
     This will install all the necessary packages for the documentation site.
 
-3. **Run the development server:**
+4. **Run the development server:**
 
     To view the documentation locally and start contributing, run the development server:
 
