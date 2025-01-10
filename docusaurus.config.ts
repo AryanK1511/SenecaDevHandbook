@@ -9,7 +9,8 @@ const config: Config = {
     url: 'https://AryanK1511.github.io',
     baseUrl: '/',
     organizationName: 'AryanK1511',
-    projectName: 'SenecaDevGuide',
+    projectName:
+        'An open-source guide for Seneca students in software, IT, and engineering fields ✨',
     deploymentBranch: 'main',
     trailingSlash: false,
 
